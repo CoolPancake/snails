@@ -1,0 +1,60 @@
+body{
+	background-color: #DDDDDD;
+}
+.navbar{
+	margin-bottom: 10px;
+}
+.navbar-brand{
+	padding: 0 0 0 15px;
+}
+.row div{
+	background-color: #FFFFFF;
+	margin: 5px;
+}
+.row{
+	margin: 0 -5px;
+}
+
+.data_post_container{
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.data_post_container a{
+	text-decoration: none;
+	color: #000000;
+}
+.data_post_container a:hover{
+	
+	color: #DDDDDD;
+}
+.data_post_author_avatar{
+	width: 40px;
+	height: 40px;
+}
+.data_post_cover{
+	max-height: 100px;
+}
+.data_post_bg{
+	padding: 5px 0;
+	background-color: #DDDDDD;
+}
+.data_posts{
+	margin-top: 5px;
+}
+.pagination{
+margin: 5px auto;
+}
+.pager{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+footer{
+	color: #777777 ;
+	text-align: center;
+	padding: 15px;
+	
+}
+hr{
+	color: #FFFFFF;
+}

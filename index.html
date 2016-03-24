@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>蜗牛约拍</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-inverse ">
+		<div class="container ">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="Brand" src="images/logo.png">
+				</a>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">蜗牛约拍<span class="sr-only">(current)</span></a></li>
+					<li><a href="#">个人中心</a></li>
+					<li class="dropdown">
+						<a href="#">学校<span class="caret"></span></a>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="搜索">
+					</div>
+					<button type="submit" class="btn btn-default">确定</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">发布信息</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav></body>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<div class="container">
+
+		<!-- 类型选择 -->
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				不限类型 <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">不限类型</a></li>
+				<li><a href="#">摄影师</a></li>
+				<li><a href="#">模特</a></li>
+				<li><a href="#">化妆师</a></li>
+			</ul>
+		</div>
+		<!-- 费用选择 -->
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				不限费用 <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">不限费用</a></li>
+				<li><a href="#">希望互免</a></li>
+				<li><a href="#">需要收费</a></li>
+				<li><a href="#">愿意付费</a></li>
+				<li><a href="#">费用协商</a></li>
+
+			</ul>
+		</div>
+		<!-- 发布时间 -->   
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				发布时间 <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">最新用户</a></li>
+				<li><a href="#">最近发布</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 滚动内容 -->
+	<div class="container data_posts">
+		<div class="data_post_bg">
+			<div class="data_post_container">
+				<div class="data_post_author">
+					<a class="data_post_author_title_link" href="#">
+						<img class="img-circle data_post_author_avatar" src="images/1.png" >
+					</a>
+					<a class="data_post_author_title_link" href="#">
+						<span class="data_post_author_title">一号蜗牛</span>
+					</a>
+					<span class="label label-info data_post_user_role">模特</span>
+				</div>
+				<div class="data_post_content_clear v5_margin"></div>
+				<div class="data_post_message">
+					<a href="#" target="_blank">                                下周六因为是男票生日 想和男票拍一组情侣写真 由于还没上班 希望拍摄费用能在软妹币500以内 自己和男票都是普通人 颜值一般
+					</a>
+				</div>
+				<div class="data_post_fee_info">
+					<span>费用协商</span>
+				</div> 
+				<div class="data_post_image">
+					<a href="#" target="_blank">
+						<img class="img-responsive data_post_cover" src="images/IMG_5155.jpg">
+					</a>
+				</div>
+				<div class="data_post_meta_info">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					<span class="data_post_location ">上海</span>
+					<span class="data_post_created_time">2016/3/6 13:38:54</span>
+				</div>
+				<div class="data_post_request_count_info">
+					<span class="label label-success">收到约拍2条</span>
+				</div>
+			</div>
+		</div>
+		<div class="data_post_bg">
+			<div class="data_post_container">
+				<div class="data_post_author">
+					<a class="data_post_author_title_link" href="#">
+						<img class="img-circle data_post_author_avatar" src="images/2.png" >
+					</a>
+					<a class="data_post_author_title_link" href="#">
+						<span class="data_post_author_title">二号蜗牛</span>
+					</a>
+					<span class="label label-info data_post_user_role">摄影师</span>
+				</div>
+				<div class="data_post_content_clear v5_margin"></div>
+				<div class="data_post_message">
+					<a href="#" target="_blank">        接拍各类风格，费用好商量
+					</a>
+				</div>
+				<div class="data_post_fee_info">
+					<span>费用协商</span>
+				</div> 
+				<div class="data_post_image">
+					<a href="#" target="_blank">
+						<img class="img-responsive data_post_cover" src="images/IMG_5512.jpg">
+					</a>
+				</div>
+				<div class="data_post_meta_info">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					<span class="data_post_location ">深圳</span>
+					<span class="data_post_created_time">2016/3/6 13:38:54</span>
+				</div>
+				<div class="data_post_request_count_info">
+					<span class="label label-success">收到约拍2条</span>
+				</div>
+			</div>
+		</div>
+		<div class="data_post_bg">
+			<div class="data_post_container">
+				<div class="data_post_author">
+					<a class="data_post_author_title_link" href="#">
+						<img class="img-circle data_post_author_avatar" src="images/3.png" >
+					</a>
+					<a class="data_post_author_title_link" href="#">
+						<span class="data_post_author_title">三号蜗牛</span>
+					</a>
+					<span class="label label-info data_post_user_role">化妆师</span>
+				</div>
+				<div class="data_post_content_clear v5_margin"></div>
+				<div class="data_post_message">
+					<a href="#" target="_blank">      本人从事化妆工作多年，希望能帮到你
+					</a>
+				</div>
+				<div class="data_post_fee_info">
+					<span>费用协商</span>
+				</div> 
+				<div class="data_post_image">
+					<a href="#" target="_blank">
+						<img class="img-responsive data_post_cover" src="images/IMG_7470.jpg">
+					</a>
+				</div>
+				<div class="data_post_meta_info">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					<span class="data_post_location ">广州</span>
+					<span class="data_post_created_time">2016/3/6 13:38:54</span>
+				</div>
+				<div class="data_post_request_count_info">
+					<span class="label label-success">收到约拍2条</span>
+				</div>
+			</div>
+		</div>
+				<div class="data_post_bg">
+			<div class="data_post_container">
+				<div class="data_post_author">
+					<a class="data_post_author_title_link" href="#">
+						<img class="img-circle data_post_author_avatar" src="images/1.png" >
+					</a>
+					<a class="data_post_author_title_link" href="#">
+						<span class="data_post_author_title">一号蜗牛</span>
+					</a>
+					<span class="label label-info data_post_user_role">模特</span>
+				</div>
+				<div class="data_post_content_clear v5_margin"></div>
+				<div class="data_post_message">
+					<a href="#" target="_blank">                                下周六因为是男票生日 想和男票拍一组情侣写真 由于还没上班 希望拍摄费用能在软妹币500以内 自己和男票都是普通人 颜值一般
+					</a>
+				</div>
+				<div class="data_post_fee_info">
+					<span>费用协商</span>
+				</div> 
+				<div class="data_post_image">
+					<a href="#" target="_blank">
+						<img class="img-responsive data_post_cover" src="images/IMG_5155.jpg">
+					</a>
+				</div>
+				<div class="data_post_meta_info">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					<span class="data_post_location ">上海</span>
+					<span class="data_post_created_time">2016/3/6 13:38:54</span>
+				</div>
+				<div class="data_post_request_count_info">
+					<span class="label label-success">收到约拍2条</span>
+				</div>
+			</div>
+		</div>
+		<div class="data_post_bg">
+			<div class="data_post_container">
+				<div class="data_post_author">
+					<a class="data_post_author_title_link" href="#">
+						<img class="img-circle data_post_author_avatar" src="images/2.png" >
+					</a>
+					<a class="data_post_author_title_link" href="#">
+						<span class="data_post_author_title">二号蜗牛</span>
+					</a>
+					<span class="label label-info data_post_user_role">模特</span>
+				</div>
+				<div class="data_post_content_clear v5_margin"></div>
+				<div class="data_post_message">
+					<a href="#" target="_blank">                                下周六因为是男票生日 想和男票拍一组情侣写真 由于还没上班 希望拍摄费用能在软妹币500以内 自己和男票都是普通人 颜值一般
+					</a>
+				</div>
+				<div class="data_post_fee_info">
+					<span>费用协商</span>
+				</div> 
+				<div class="data_post_image">
+					<a href="#" target="_blank">
+						<img class="img-responsive data_post_cover" src="images/IMG_5512.jpg">
+					</a>
+				</div>
+				<div class="data_post_meta_info">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					<span class="data_post_location ">深圳</span>
+					<span class="data_post_created_time">2016/3/6 13:38:54</span>
+				</div>
+				<div class="data_post_request_count_info">
+					<span class="label label-success">收到约拍2条</span>
+				</div>
+			</div>
+		</div>
+		<div class="data_post_bg">
+			<div class="data_post_container">
+				<div class="data_post_author">
+					<a class="data_post_author_title_link" href="#">
+						<img class="img-circle data_post_author_avatar" src="images/3.png" >
+					</a>
+					<a class="data_post_author_title_link" href="#">
+						<span class="data_post_author_title">三号蜗牛</span>
+					</a>
+					<span class="label label-info data_post_user_role">模特</span>
+				</div>
+				<div class="data_post_content_clear v5_margin"></div>
+				<div class="data_post_message">
+					<a href="#" target="_blank">                                下周六因为是男票生日 想和男票拍一组情侣写真 由于还没上班 希望拍摄费用能在软妹币500以内 自己和男票都是普通人 颜值一般
+					</a>
+				</div>
+				<div class="data_post_fee_info">
+					<span>费用协商</span>
+				</div> 
+				<div class="data_post_image">
+					<a href="#" target="_blank">
+						<img class="img-responsive data_post_cover" src="images/IMG_7470.jpg">
+					</a>
+				</div>
+				<div class="data_post_meta_info">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					<span class="data_post_location ">广州</span>
+					<span class="data_post_created_time">2016/3/6 13:38:54</span>
+				</div>
+				<div class="data_post_request_count_info">
+					<span class="label label-success">收到约拍2条</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 分页 -->
+	<div class="container ">
+		<nav>
+			<ul class="pager">
+				<li><a href="#">上一页</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">下一页</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<footer>
+			<div >
+				<ul class="list-inline">
+					<li>网站首页</li>
+					<li>人才招聘</li>
+					<li>联系我们</li>
+					<li>意见反馈</li>
+					<li>友情链接</li>
+				</ul>
+				<span><small>Copyright © 2016 woniu.com All Rights Reserved | 粤ICP备 13046642号-2<small></span>
+			</div>
+		</footer>
+</body>
+</html>
